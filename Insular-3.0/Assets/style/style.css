@@ -1,0 +1,136 @@
+
+:root {
+    --bg-darkorange: rgb(255, 140, 0);
+}
+
+html {
+    scroll-behavior:smooth
+}
+
+#logo {
+    height: 3rem;
+    width: 15rem;
+
+}
+
+.nav-item {
+    /* border: solid 2px rgb(221, 11, 11); */
+    margin-left: 3em;
+    font-size: 1.3rem;
+}
+
+#nave {
+    height: 2em;
+}
+
+.procurar {
+    margin-right: 6rem;
+    width: 40rem;
+    height: 3.4em;
+    border-radius: 8px;
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+hr {
+    margin-top: 1rem;
+}
+
+#destaque {
+    background-color: var(--bg-darkorange);
+    border-radius: 7px;
+    text-align: center;
+    
+}
+
+.card {
+    width: 13.2rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+    border: solid 2px rgb(69, 197, 14);
+
+}
+
+.card-body {
+    width: 10rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    border: solid 2px rgb(221, 11, 11);
+
+        
+}
+
+.card-img-top {
+    
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 10rem;
+    border: solid 2px rgb(23, 83, 213);
+}
+
+
+
+
+  a:hover {
+    color: var(--bg-darkorange);
+  }
+
+/* id dos social media e contatos */
+#social {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#social:hover {
+    color: var(--bg-darkorange);
+}
+
+#contact {
+    background-color: var(--bg-darkorange);
+    height: 35rem;
+}
+.titulos {
+    margin-top: 10px;
+    
+}
+
+.foot {
+    border-top: 2px solid var(--bg-darkorange);
+}
+
+.retirada {
+    margin-top: 25px;
+    
+
+}
+
+.span {
+    color: var(--bg-darkorange);  
+}
+
+#rodape {
+    font-size: 18px;
+}
+
+#cartao {
+    margin-left: 2px;
+}
+
+@media (max-width: 575px)
+{
+    .card, .card-img-top, .card-body
+   {
+    width: 16rem;
+    
+    
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1270px)
+{
+    .card, .card-img-top, .card-body
+    {
+    width: 10rem;
+    }
+}
